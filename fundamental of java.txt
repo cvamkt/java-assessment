@@ -1,0 +1,74 @@
+Assignment Solutions
+Fundamentals of Java
+
+
+1. What Ps ProgrammPng language?
+
+Ans: Programming is a practice that strengthens our capacity for logical thought and problem-solving. It 
+teaches us how to carry out a task with the aid of software or a computer program. So, to put it simply, 
+programming is the process of using computer language to bring a solution to a problem into practice. 
+
+
+2. Why do we need a programmPng language?
+
+Ans: Programming Language- it is vocabulary and a collection of rules that command a computer, devices, 
+applications to work according to the written codes. The programming language enables us to write efficient 
+programs and develop online solutions such as- mobile applications, web applications, and games, etc.
+
+Programming is used to automate, maintain, assemble, measure and interpret the processing of the data and 
+information. It helps in accelerating the input and output of the devices or applicationsJ
+
+3. Features of JAVA
+
+Java is a versatile and widely-used programming language known for its robust features. Some key features include:
+
+  1. *Platform Independence*: Java programs can run on any device or operating system with the help of the Java Virtual Machine (JVM).
+
+  2. *Object-Oriented*: Java is object-oriented, meaning it supports the concepts of classes, objects, inheritance, and polymorphism.
+
+  3. *Simple*: Java was designed to be easy to learn and use, with a clean syntax and fewer complex features compared to languages like C++.
+
+  4. *Secure*: Java puts a strong emphasis on security with features like bytecode verification and a runtime security manager.
+
+  5. *Robust*: Java is designed to be reliable with features like automatic memory management (garbage collection), exception handling, and type checking.
+
+  6. *Multithreaded*: Java supports multithreading, allowing concurrent execution of two or more parts of a program for maximum utilization of CPU.
+
+  7. *High Performance*: Java enables high performance with its Just-In-Time (JIT) compiler, which converts bytecode into native machine code.
+
+
+  These features make Java suitable for a wide range of applications, from web development to enterprise-level server-side applications and mobile applications (Android).
+
+
+4. What Ps an Object?
+
+Ans: An object is an entity with state and behaviour, such as a chair, bike, marker, pen, table, or car. It could be 
+intellectual or physical (tangible and intangible). The banking system is an illustration of an intangible entityJ
+
+
+5. What Ps a Class? 
+
+Ans: A class is a collection of items with similar characteristics. It serves as a model or blueprint from which 
+things can be made. It makes sense as a whole. It cannot be bodilyJ
+
+
+
+
+6. Explain about the main() method in Java?
+
+The main() method in Java serves as the entry point for any Java application. When you run a Java program, the Java Virtual Machine (JVM) looks for this method to start executing your code. It has a specific signature that must be followed precisely:
+
+java
+public static void main(String[] args)
+
+
+Here’s what each part means:
+- public: This keyword means that the main() method can be accessed and executed by any other part of the Java program or external code.
+- static: This keyword allows the main() method to be called without having to create an instance (object) of the class that contains it. It's crucial because the JVM calls main() directly when starting the program.
+- void: This indicates that the main() method doesn’t return any value after it completes execution. It simply starts the program running.
+- main: This is the name of the method.
+- (String[] args): This part is where you can pass arguments (inputs) to your program when you run it from the command line. args is an array of strings that holds any command-line arguments you provide.
+
+Inside the main() method, you write the instructions that define what your Java program does. It’s where you might print messages to the console, perform calculations, read user input, or interact with files and databases.
+
+In summary, think of the main() method as the gateway through which your Java program starts running. It’s where everything begins, and from there, your code can do all sorts of tasks based on what you’ve progr
