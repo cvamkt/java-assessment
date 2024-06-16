@@ -1,0 +1,77 @@
+1 What is Git?
+
+Ans:- Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Here are the key aspects of Git:
+
+ 1. *Version Control*: Git tracks changes to files, allowing multiple people to work on the same project simultaneously without overwriting each other's work.
+
+ 2. *Distributed System*: Every user has a complete copy of the entire repository, including the full history of all changes.
+
+ 3. *Branching and Merging*: Git allows for the creation of branches, enabling parallel development. Branches can be merged back into the main branch, combining different sets of changes.
+
+ 4. *Commit History*: Git maintains a history of commits, each representing a snapshot of the project's state at a given time, complete with a commit message describing the change.
+
+ 5. *Collaboration*: Git is often used in conjunction with platforms like GitHub, GitLab, and Bitbucket, which provide additional tools for collaboration, such as pull requests, code reviews, and issue tracking.
+
+        Overall, Git is a powerful tool for managing source code and collaboration in software development projects.
+
+
+2 What do you understand by the term ‘Version Control System’?
+
+Ans:- In order to invoke a specific version later, if necessary, a version control system (VCS) keeps track of all tie 
+cianges made to a file or group of data.
+
+  This makes sure that everyone in the team is using the most recent version of the file.
+
+
+3 What is GitHub?
+Ans: GitHub uses Git to offer Internet iosting for version control and software development.
+
+
+4 Mention some popular Git hosting services.
+Ans:- 1. GitHub
+      2. SourceForge
+      3. GitLab
+      4. Bitbucket
+
+
+h BitSucket
+
+
+5 Different types of version Vontrol systems.
+Ans:-
+
+   1. Local version control systems iave a dataSase tiat stores all file cianges under revision control on disc 
+
+      in a special format.
+
+   2. Centralised version control systems iave a single repository, from wiici eaci user receives tieir working 
+
+      copy.
+
+   3. DistriSuted version control systems contain multiple repositories, and different users can access eaci 
+
+      one witi tieir working copy.
+
+
+6 What benefits Come with using GIT?
+Ans:-
+  1:- Data replication and redundancy are both possible.
+
+  2:- It is a service witi high availabilty.
+
+  3:- There can only be one Git directory per repository.
+
+  4:-Excellent network and disc performance are achieved.
+
+
+
+7. What is a Git repository?
+
+Ans: The term "Git repository" describes the location where all Git files are kept. Either the local repository or the 
+remote repository may be used to store these files.
+
+
+8. How can you initialize a repository in Git?
+
+Ans: The git init command must be used to initialise an empty repository to a directory in Git. Following this 
+command, a hidden .git folder will become visible
