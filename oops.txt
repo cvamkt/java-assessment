@@ -1,0 +1,56 @@
+1. How to create an object in java`
+Ans:- The object is a basic building block of an OOPs language. In Java, we cannot execute any program without creating an object. There is various way to create an object in Java that we will discuss in this section, and also learn how to create an object in Java.
+
+Java provides five ways to create an object.
+
+Using new Keyword
+Using clone() method
+Using newInstance() method of the Class class
+Using newInstance() method of the Constructor class
+Using Deserialization
+
+
+2. What is the use of new keyword in java?
+
+Ans:- the use of new keyword in java is to create object.
+
+3. what is the diffrent types of variables in java?
+
+Ans:- there are 3 types of variables:-
+       
+      local
+      static
+      instant
+
+4. What is the diffrence between instance variable and local variable in java?
+
+Ans:- Local Variable: These variables are declared within a method but do not get any default value.
+
+          :-They are usually created when we enter a method or constructor and are destroyed after exiting the block or when the call returns from the 
+
+          :-Its scope is generally limited to a method and its scope starts from the line they are declared. 
+    
+           :-Their scope usually remains there until the closing curly brace of the method comes.
+             The initialization of the local variable is mandatory.
+
+
+     Instance Variable: These variables are declared within a class but outside a method, constructor, or block and always get a default value.
+
+           :-These variables are usually created when we create an object and are destroyed when the object is destroyed.
+
+           :-We may use an access specifier, for instance, variable, and if no access specifier is specified, then the default access specifier is used.
+
+           :-Each and every object will have its own copy of instance variables.
+
+
+5. In which area memory is allocated for instance variable and local variable?
+
+Ans:-  1. instance variable:- Heap
+       2. local variable:-  stack
+
+. What is method overloading?
+
+Ans:- Method overloading in Java is a feature that allows a class to have multiple methods with the same name 
+but different parameters. The Java compiler distinguishes these methods by the number, type, and order of 
+parameters. Overloading is used to provide multiple ways to call a method for different use cases, making 
+code more readable and reusable.
