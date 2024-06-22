@@ -1,0 +1,115 @@
+1. What is the default value of Array for different data types?
+Ans:-
+            DATATYPE                              DEFAULT VALUE
+        
+          1. byte,short,int,long                       0
+          2. float,double                              0.0
+          3. boolean                                   null
+
+
+2. Can you pass the negative number in Array size?
+
+ans:- No, we can not pass the negative number as array size.
+
+3. Where does Array stored in JVM memory?
+
+Ans:- in HEAP memory.
+
+4. what is the disadvantage of Array?
+
+Ans:- :-To create an Array, contiguous memory is required. It is
+possible in JVM that the memory is 
+available to accommodate
+Array but memory available is not contiguous.
+
+ :-The Array is a static data structure. It is of fixed size. We can not
+increase or decrease the size of 
+the Array after creation. 
+
+
+5.What is a Aonymous Array in java? Give an example?
+
+As:- An array without any name (or reference) is called an Anonymous
+     Array. They are useful for the scenarios where we need one time
+     usage of Array.
+ 
+For example,
+
+Anonymous int array :
+
+new int[] {2,3,4,5,6,7};
+
+Anonymous String array :
+
+new String[]{"Java , "Hungry"};
+
+6. What are the different ways to traverse an Array in java?
+
+Ans:- 1. usimg for loop
+      2. using for each loop
+
+7. What is diffrence between length and length() method Give an exmple?
+
+Ans:-  length:-
+               An array is an object that holds a fixed number of values of the
+              same type.
+
+              The length variable in an array returns the length of an array i.e. a
+              number of elements stored in an 
+              array.
+
+              Once arrays are initialized, its length cannot be changed, so the
+              length variable can directly be used 
+              to get the length of an array.
+              The length variable is used only for an array.
+
+
+Example:
+
+public class Test {
+
+ public static void main(String args[]) {
+
+ int array[] = {1, 2, 3, 4, 5, 6, 7};
+
+ System.out.println("Length of an array is: " + array.length);
+
+ }
+
+}
+
+Output: Length of an array is: 7
+
+
+    length():-
+
+              The length() method is a static method of String class.
+
+              The length() returns the length of a string object i.e. the number of
+               characters stored in an object.
+
+              String class uses this method because the length of a string can be
+              modified using the various operations on 
+               an object.
+
+              The String class internally uses a char[] array that it does not
+               expose to the outside world.
+
+Example:
+
+public class Test {
+
+ public static void main(String args[]) {
+
+ String str = "Welcome to Tutorials Point";
+
+ System.out.println("Length of String using length() method is:
+
+" + str.length());
+
+ }
+
+}
+
+
+Output: Length of String using length() method is: 26
